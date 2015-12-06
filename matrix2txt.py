@@ -4,7 +4,7 @@
 class Matrix():
     def _read_razdel(self, razdel):
         '''чтение раздела из матрицы'''
-        # формирование заголовка поиска (описание раздела) test
+        # формирование заголовка поиска (описание раздела) test nrew test
         zag = '! 0000 ' + self.js["OTCHET"] + ' ' + razdel + ' ' + self.js["YEAR"][2:4] + ' ' +\
               self.js["MONTH"] + ' ' + self.js["REGION"] + ';'
 
